@@ -1,12 +1,13 @@
 %%PREREQUISITES:
-%1)The given excel file(data.xlsx)and GUI figure must be saved in current folder.
+%1)The given excel file(data.xlsx)and created GUI figure must be saved in current folder.
 %2)The "task1.m" and "task.fig" files must also be stored in current folder.
 %3)The "data.xlsx" file must be imported to MATLAB and all cells are selected.
-%4)All the data is imported as a single table[data table(609*7)]
-%5)The data table must be dragged and dropped in current folder fro "Workspace".
+%4)All the data is imported as a single table[data table(609*7)].
+%5)The data table must be dragged and dropped in current folder from "Workspace".
 %6)It must be renamed as "data.mat" file which is being loaded in this code.
 
-%%"task1.m" is the  MATLAB code and "task1.fig" is the GUI created
+%%All the required files are uploaded.
+%%The file "task1.m" is the  MATLAB code and "task1.fig" is the GUI created.
 function varargout = task1(varargin)
 gui_Singleton = 1;
 gui_State = struct('gui_Name',       mfilename, ...
